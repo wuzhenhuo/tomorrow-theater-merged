@@ -29,7 +29,6 @@ import {
 } from 'lucide-react';
 
 // 导入图片
-import pic3 from '../assets/images/pic3.png';
 import tot001 from '../assets/images/TOT001.png';
 import jiemian1 from '../assets/images/JIEMIAN1.png';
 import tot003 from '../assets/images/TOT003.png';

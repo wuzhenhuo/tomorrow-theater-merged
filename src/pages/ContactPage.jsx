@@ -1,23 +1,19 @@
 import React, { useState } from 'react';
+import pic3 from '../assets/images/pic3.png';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
-import { 
-  Mail, 
-  Phone, 
-  MapPin, 
-  Clock,
+import {
+  Mail,
+  Phone,
+  MapPin,
   Building,
   Users,
   MessageSquare,
   Send,
   Globe,
-  Linkedin,
-  Twitter,
-  Github,
   ExternalLink,
   CheckCircle,
-  ArrowRight
 } from 'lucide-react';
 
 const ContactPage = () => {
@@ -204,6 +200,13 @@ const ContactPage = () => {
               </span>
             </p>
           </div>
+        </div>
+      </section>
+
+      {/* Hero Image */}
+      <section className="bg-slate-900">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <img src={pic3} alt="联系我们" className="w-1/2 h-auto object-cover mx-auto" />
         </div>
       </section>
 
